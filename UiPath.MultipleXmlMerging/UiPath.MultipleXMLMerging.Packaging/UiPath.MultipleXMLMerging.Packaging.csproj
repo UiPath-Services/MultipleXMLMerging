@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+	<PropertyGroup>
+		<TargetFrameworks>net6.0-windows</TargetFrameworks>
+		<AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+		<VersionSuffix></VersionSuffix>
+		<OutputPath>..\Output</OutputPath>
+		<Authors>UiPath</Authors>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<PackageIconUrl>https://download.uipath.com/UI_icon.png</PackageIconUrl>
+		<PackageId>InternalLabs.MultipleXMLMerging.Activities</PackageId>
+		<PackageLicenseUrl>https://www.uipath.com/</PackageLicenseUrl>
+		<PackageProjectUrl>https://docs.uipath.com/</PackageProjectUrl>
+		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+		<PackageTags>MyActivities</PackageTags>
+		<PackageTitle>InternalLabs.MultipleXMLMerging.Activities</PackageTitle>
+		<RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+		<TargetsForTfmSpecificBuildOutput>$(TargetsForTfmSpecificBuildOutput);AddDlls</TargetsForTfmSpecificBuildOutput>
+		<VersionSuffix></VersionSuffix>
+		<Version>1.0.0</Version>
+	</PropertyGroup>
+	<Target Name="RemoveMetaDll" AfterTargets="BuiltProjectOutputGroup">
+		<ItemGroup>
+			<BuiltProjectOutputGroupOutput Remove="@(BuiltProjectOutputGroupOutput)" />
+		</ItemGroup>
+	</Target>
+	<Target Name="AddDlls">
+		<ItemGroup Condition=" '$(TargetFramework)' == 'net6.0-windows'">
+			<BuildOutputInPackage Include="$(OutputPath)UiPath.MultipleXMLMerging.dll" />
+			<BuildOutputInPackage Include="$(OutputPath)UiPath.MultipleXMLMerging.Activities.dll" />
+			<BuildOutputInPackage Include="$(OutputPath)UiPath.MultipleXMLMerging.Activities.Design.dll" />
+		</ItemGroup>
+
+	</Target>
+</Project>

@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>net6.0</TargetFrameworks>
+		<RootNamespace>UiPath.MultipleXmlMerging</RootNamespace>
+		<AssemblyName>UiPath.MultipleXmlMerging</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OutputPath>..\Output</OutputPath>
+    <DocumentationFile>bin\$(Configuration)\UiPath.MultipleXmlMerging.xml</DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Properties\Resources.*.resx">
+      <DependentUpon>Resources.resx</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Enums\" />
+    <Folder Include="Models\" />
+  </ItemGroup>
+	<ItemGroup Condition=" '$(TargetFramework)' == 'net6.0-windows' ">
+		<PackageReference Include="UiPath.Workflow.Runtime" Version="6.0.0-*" PrivateAssets="All" />
+		<PackageReference Include="UiPath.Workflow" Version="6.0.0-*" PrivateAssets="All" />
+		<PackageReference Include="System.Activities.Core.Presentation" Version="6.0.0-*" PrivateAssets="All" />
+		<PackageReference Include="System.Activities.Metadata" Version="6.0.0-*" PrivateAssets="All" />
+	</ItemGroup>
+</Project>

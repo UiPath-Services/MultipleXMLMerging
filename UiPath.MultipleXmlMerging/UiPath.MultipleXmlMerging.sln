@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33414.496
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UiPath.MultipleXmlMerging", "UiPath.MultipleXmlMerging", "{30E0BF6A-9A63-40B3-9A52-CBFD806296B0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UiPath.MultipleXmlMerging", "UiPath.MultipleXmlMerging\UiPath.MultipleXmlMerging.csproj", "{D16F3416-0A89-4D4A-B047-E9F628514B8E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UiPath.MultipleXmlMerging.Activities", "UiPath.MultipleXmlMerging.Activities\UiPath.MultipleXmlMerging.Activities.csproj", "{18CAAFF5-1CD1-49C0-B996-2DBCEA48FFD4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UiPath.MultipleXmlMerging.Activities.Design", "UiPath.MultipleXmlMerging.Activities.Design\UiPath.MultipleXmlMerging.Activities.Design.csproj", "{C2CC57FB-3CEF-48DF-AD9E-D9E8861BC30B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{10618B61-147A-40A0-9898-1C5E22E53CD0}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "UiPath.Shared.Activities", "..\Shared\UiPath.Shared.Activities\UiPath.Shared.Activities.shproj", "{4546856D-EA50-45C6-9419-EEEACB5A80AA}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "UiPath.Shared.Activities.Design", "..\Shared\UiPath.Shared.Activities.Design\UiPath.Shared.Activities.Design.shproj", "{DF9C43F0-ADD3-4FBF-995E-84B92F9CBF25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UiPath.MultipleXMLMerging.Packaging", "UiPath.MultipleXMLMerging.Packaging\UiPath.MultipleXMLMerging.Packaging.csproj", "{C5856FFE-2760-4918-B95E-FEAF383ECF99}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Output", "Output", "{312728B4-22EF-4D11-9963-818C58992853}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D16F3416-0A89-4D4A-B047-E9F628514B8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D16F3416-0A89-4D4A-B047-E9F628514B8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D16F3416-0A89-4D4A-B047-E9F628514B8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D16F3416-0A89-4D4A-B047-E9F628514B8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18CAAFF5-1CD1-49C0-B996-2DBCEA48FFD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18CAAFF5-1CD1-49C0-B996-2DBCEA48FFD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18CAAFF5-1CD1-49C0-B996-2DBCEA48FFD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18CAAFF5-1CD1-49C0-B996-2DBCEA48FFD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2CC57FB-3CEF-48DF-AD9E-D9E8861BC30B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2CC57FB-3CEF-48DF-AD9E-D9E8861BC30B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2CC57FB-3CEF-48DF-AD9E-D9E8861BC30B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2CC57FB-3CEF-48DF-AD9E-D9E8861BC30B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5856FFE-2760-4918-B95E-FEAF383ECF99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5856FFE-2760-4918-B95E-FEAF383ECF99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5856FFE-2760-4918-B95E-FEAF383ECF99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5856FFE-2760-4918-B95E-FEAF383ECF99}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D16F3416-0A89-4D4A-B047-E9F628514B8E} = {30E0BF6A-9A63-40B3-9A52-CBFD806296B0}
+		{18CAAFF5-1CD1-49C0-B996-2DBCEA48FFD4} = {30E0BF6A-9A63-40B3-9A52-CBFD806296B0}
+		{C2CC57FB-3CEF-48DF-AD9E-D9E8861BC30B} = {30E0BF6A-9A63-40B3-9A52-CBFD806296B0}
+		{4546856D-EA50-45C6-9419-EEEACB5A80AA} = {10618B61-147A-40A0-9898-1C5E22E53CD0}
+		{DF9C43F0-ADD3-4FBF-995E-84B92F9CBF25} = {10618B61-147A-40A0-9898-1C5E22E53CD0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F136EEF0-5C08-4AB9-BCA8-0A904E2959EC}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		..\Shared\UiPath.Shared.Activities\UiPath.Shared.Activities.projitems*{18caaff5-1cd1-49c0-b996-2dbcea48ffd4}*SharedItemsImports = 5
+		..\Shared\UiPath.Shared.Activities\UiPath.Shared.Activities.projitems*{4546856d-ea50-45c6-9419-eeeacb5a80aa}*SharedItemsImports = 13
+		..\Shared\UiPath.Shared.Activities.Design\UiPath.Shared.Activities.Design.projitems*{c2cc57fb-3cef-48df-ad9e-d9e8861bc30b}*SharedItemsImports = 5
+		..\Shared\UiPath.Shared.Activities.Design\UiPath.Shared.Activities.Design.projitems*{df9c43f0-add3-4fbf-995e-84b92f9cbf25}*SharedItemsImports = 13
+	EndGlobalSection
+EndGlobal

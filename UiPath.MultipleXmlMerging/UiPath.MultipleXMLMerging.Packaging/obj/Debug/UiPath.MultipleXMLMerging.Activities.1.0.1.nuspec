@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>UiPath.MultipleXMLMerging.Activities</id>
+    <version>1.0.1</version>
+    <authors>UiPath</authors>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <licenseUrl>https://www.uipath.com/</licenseUrl>
+    <projectUrl>https://docs.uipath.com/</projectUrl>
+    <iconUrl>https://download.uipath.com/UI_icon.png</iconUrl>
+    <description>Package Description</description>
+    <tags>MyActivities</tags>
+    <dependencies>
+      <group targetFramework="net6.0-windows7.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="..\Output\net6.0-windows\UiPath.MultipleXMLMerging.dll" target="lib\net6.0-windows7.0\UiPath.MultipleXMLMerging.dll" />
+    <file src="..\Output\net6.0-windows\UiPath.MultipleXMLMerging.Activities.dll" target="lib\net6.0-windows7.0\UiPath.MultipleXMLMerging.Activities.dll" />
+    <file src="..\Output\net6.0-windows\UiPath.MultipleXMLMerging.Activities.Design.dll" target="lib\net6.0-windows7.0\UiPath.MultipleXMLMerging.Activities.Design.dll" />
+  </files>
+</package>

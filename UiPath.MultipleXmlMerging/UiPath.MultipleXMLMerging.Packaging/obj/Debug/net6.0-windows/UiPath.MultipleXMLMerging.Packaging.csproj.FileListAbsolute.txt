@@ -1,0 +1,12 @@
+C:\Users\laura.olaru\Documents\UiPath\AuthorProjects\MergeXamls\UiPath.MultipleXmlMerging\Output\net6.0-windows\UiPath.MultipleXMLMerging.Packaging.deps.json
+C:\Users\laura.olaru\Documents\UiPath\AuthorProjects\MergeXamls\UiPath.MultipleXmlMerging\Output\net6.0-windows\UiPath.MultipleXMLMerging.Packaging.dll
+C:\Users\laura.olaru\Documents\UiPath\AuthorProjects\MergeXamls\UiPath.MultipleXmlMerging\Output\net6.0-windows\UiPath.MultipleXMLMerging.Packaging.pdb
+C:\Users\laura.olaru\Documents\UiPath\AuthorProjects\MergeXamls\UiPath.MultipleXmlMerging\UiPath.MultipleXMLMerging.Packaging\obj\Debug\net6.0-windows\UiPath.MultipleXMLMerging.Packaging.csproj.AssemblyReference.cache
+C:\Users\laura.olaru\Documents\UiPath\AuthorProjects\MergeXamls\UiPath.MultipleXmlMerging\UiPath.MultipleXMLMerging.Packaging\obj\Debug\net6.0-windows\UiPath.MultipleXMLMerging.Packaging.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\laura.olaru\Documents\UiPath\AuthorProjects\MergeXamls\UiPath.MultipleXmlMerging\UiPath.MultipleXMLMerging.Packaging\obj\Debug\net6.0-windows\UiPath.MultipleXMLMerging.Packaging.AssemblyInfoInputs.cache
+C:\Users\laura.olaru\Documents\UiPath\AuthorProjects\MergeXamls\UiPath.MultipleXmlMerging\UiPath.MultipleXMLMerging.Packaging\obj\Debug\net6.0-windows\UiPath.MultipleXMLMerging.Packaging.AssemblyInfo.cs
+C:\Users\laura.olaru\Documents\UiPath\AuthorProjects\MergeXamls\UiPath.MultipleXmlMerging\UiPath.MultipleXMLMerging.Packaging\obj\Debug\net6.0-windows\UiPath.MultipleXMLMerging.Packaging.csproj.CoreCompileInputs.cache
+C:\Users\laura.olaru\Documents\UiPath\AuthorProjects\MergeXamls\UiPath.MultipleXmlMerging\UiPath.MultipleXMLMerging.Packaging\obj\Debug\net6.0-windows\UiPath.MultipleXMLMerging.Packaging.dll
+C:\Users\laura.olaru\Documents\UiPath\AuthorProjects\MergeXamls\UiPath.MultipleXmlMerging\UiPath.MultipleXMLMerging.Packaging\obj\Debug\net6.0-windows\refint\UiPath.MultipleXMLMerging.Packaging.dll
+C:\Users\laura.olaru\Documents\UiPath\AuthorProjects\MergeXamls\UiPath.MultipleXmlMerging\UiPath.MultipleXMLMerging.Packaging\obj\Debug\net6.0-windows\UiPath.MultipleXMLMerging.Packaging.pdb
+C:\Users\laura.olaru\Documents\UiPath\AuthorProjects\MergeXamls\UiPath.MultipleXmlMerging\UiPath.MultipleXMLMerging.Packaging\obj\Debug\net6.0-windows\ref\UiPath.MultipleXMLMerging.Packaging.dll
